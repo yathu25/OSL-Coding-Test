@@ -20,10 +20,9 @@ public class MainClass {
 		co.setStore(store);
 		System.out.println("Test");
 
-		co.scan(ATV);
-        co.scan(ATV);
-        co.scan(ATV);
+		co.scan(MBP);
         co.scan(VGA);
+        co.scan(IPD);
 
 	  BigDecimal total = co.total();
 	  System.out.println(" Expected(249.00) Total: "+total);
